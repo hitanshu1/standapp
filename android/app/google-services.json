@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "257697229142",
+    "firebase_url": "https://standappv3.firebaseio.com",
+    "project_id": "standappv3",
+    "storage_bucket": "standappv3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257697229142:android:798e939d303520ef",
+        "android_client_info": {
+          "package_name": "com.konduko.standapp.v3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257697229142-3ae0nvvjjmjmv5lebs4i93294toffvj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.konduko.standapp.v3",
+            "certificate_hash": "568f960ff92ba6e510f61a0fb154cd18144fc204"
+          }
+        },
+        {
+          "client_id": "257697229142-o527k8jull2dk7nttl9mtpcmbf07cqf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWJOpkFNLJcZB_4-AcM0XVwKdZ9TH_csc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257697229142-o527k8jull2dk7nttl9mtpcmbf07cqf7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "257697229142-gg591qrf8n3k2813mfd2dq9t58mla32o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.geekyants.services.flutter.konduko"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

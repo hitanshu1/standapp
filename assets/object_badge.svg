@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="640" viewBox="0 0 360 640">
+  <defs>
+    <path id="object_badge-b" d="M16,124 L311,124 C319.836556,124 327,131.163444 327,140 L327,602 C327,610.836556 319.836556,618 311,618 L16,618 C7.163444,618 1.082166e-15,610.836556 0,602 L0,140 C-1.082166e-15,131.163444 7.163444,124 16,124 Z M84,148 C79.581722,148 76,151.581722 76,156 C76,160.418278 79.581722,164 84,164 C88.418278,164 92,160.418278 92,156 C92,151.581722 88.418278,148 84,148 Z M132,148 C127.581722,148 124,151.581722 124,156 C124,160.418278 127.581722,164 132,164 L195,164 C199.418278,164 203,160.418278 203,156 C203,151.581722 199.418278,148 195,148 L132,148 Z M243,148 C238.581722,148 235,151.581722 235,156 C235,160.418278 238.581722,164 243,164 C247.418278,164 251,160.418278 251,156 C251,151.581722 247.418278,148 243,148 Z"/>
+    <filter id="object_badge-a" width="115.9%" height="110.5%" x="-8%" y="-4.3%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <filter id="object_badge-c" width="114.4%" height="109.5%" x="-7.2%" y="-3.7%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" radius="5" result="shadowSpreadInner1"/>
+      <feGaussianBlur in="shadowSpreadInner1" result="shadowBlurInner1" stdDeviation="5"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.603147645 0"/>
+    </filter>
+    <linearGradient id="object_badge-d" x1="0%" x2="150.517%" y1="24.675%" y2="50%">
+      <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFF"/>
+    </linearGradient>
+    <linearGradient id="object_badge-f" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </linearGradient>
+    <polygon id="object_badge-e" points="108 0 139 0 179 125 148 125"/>
+    <polygon id="object_badge-g" points="188 0 219 0 179 125 148 125"/>
+    <linearGradient id="object_badge-j" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-opacity="0"/>
+      <stop offset="22.351%"/>
+      <stop offset="100%" stop-opacity=".5"/>
+    </linearGradient>
+    <rect id="object_badge-i" width="47" height="64" x="140" y="90" rx="4"/>
+    <filter id="object_badge-h" width="210.6%" height="181.2%" x="-55.3%" y="-32.8%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+      <feOffset dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+    </filter>
+    <filter id="object_badge-k" width="210.6%" height="181.2%" x="-55.3%" y="-32.8%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="5"/>
+      <feOffset dy="-10" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.603147645 0"/>
+    </filter>
+    <circle id="object_badge-l" cx="163.5" cy="109.5" r="7.5"/>
+    <filter id="object_badge-m" width="166.7%" height="166.7%" x="-33.3%" y="-33.3%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="5"/>
+      <feOffset in="shadowBlurInner1" result="shadowOffsetInner1"/>
+      <feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+    </filter>
+    <rect id="object_badge-o" width="279" height="406"/>
+    <filter id="object_badge-n" width="105.4%" height="103.7%" x="-2.7%" y="-1.8%" filterUnits="objectBoundingBox">
+      <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"/>
+    </filter>
+    <radialGradient id="object_badge-q" cy="0%" r="100%" fx="50%" fy="0%" gradientTransform="matrix(0 1 -.50494 0 .5 -.5)">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </radialGradient>
+    <rect id="object_badge-p" width="279" height="80"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g transform="translate(16)">
+      <use fill="#000" filter="url(#object_badge-a)" xlink:href="#object_badge-b"/>
+      <use fill="#F2EBEF" xlink:href="#object_badge-b"/>
+      <use fill="#000" filter="url(#object_badge-c)" xlink:href="#object_badge-b"/>
+      <path stroke="#000" stroke-opacity=".03" d="M16,123.5 L311,123.5 C320.112698,123.5 327.5,130.887302 327.5,140 L327.5,602 C327.5,611.112698 320.112698,618.5 311,618.5 L16,618.5 C6.88730163,618.5 -0.5,611.112698 -0.5,602 L-0.5,140 C-0.5,130.887302 6.88730163,123.5 16,123.5 Z M84,148.5 C79.8578644,148.5 76.5,151.857864 76.5,156 C76.5,160.142136 79.8578644,163.5 84,163.5 C88.1421356,163.5 91.5,160.142136 91.5,156 C91.5,151.857864 88.1421356,148.5 84,148.5 Z M132,148.5 C127.857864,148.5 124.5,151.857864 124.5,156 C124.5,160.142136 127.857864,163.5 132,163.5 L195,163.5 C199.142136,163.5 202.5,160.142136 202.5,156 C202.5,151.857864 199.142136,148.5 195,148.5 L132,148.5 Z M243,148.5 C238.857864,148.5 235.5,151.857864 235.5,156 C235.5,160.142136 238.857864,163.5 243,163.5 C247.142136,163.5 250.5,160.142136 250.5,156 C250.5,151.857864 247.142136,148.5 243,148.5 Z"/>
+      <path fill="url(#object_badge-d)" d="M16,124 L217,124 L76,618 L16,618 C7.163444,618 1.082166e-15,610.836556 0,602 L0,140 C-1.082166e-15,131.163444 7.163444,124 16,124 Z M84,148 C79.581722,148 76,151.581722 76,156 C76,160.418278 79.581722,164 84,164 C88.418278,164 92,160.418278 92,156 C92,151.581722 88.418278,148 84,148 Z M132,148 C127.581722,148 124,151.581722 124,156 C124,160.418278 127.581722,164 132,164 L195,164 C199.418278,164 203,160.418278 203,156 C203,151.581722 199.418278,148 195,148 L132,148 Z"/>
+      <use fill="#D9AFC3" xlink:href="#object_badge-e"/>
+      <use fill="url(#object_badge-f)" fill-opacity=".5" xlink:href="#object_badge-e" style="mix-blend-mode:overlay"/>
+      <use fill="#925F75" xlink:href="#object_badge-g"/>
+      <use fill="url(#object_badge-f)" fill-opacity=".5" xlink:href="#object_badge-g" style="mix-blend-mode:overlay"/>
+      <use fill="#000" filter="url(#object_badge-h)" xlink:href="#object_badge-i"/>
+      <use fill="#F2EBEF" xlink:href="#object_badge-i"/>
+      <use fill="url(#object_badge-j)" xlink:href="#object_badge-i" style="mix-blend-mode:overlay"/>
+      <use fill="#000" filter="url(#object_badge-k)" xlink:href="#object_badge-i"/>
+      <rect width="48" height="65" x="139.5" y="89.5" stroke="#000" stroke-opacity=".03" rx="4"/>
+      <use fill="#AC6289" xlink:href="#object_badge-l"/>
+      <use fill="#000" filter="url(#object_badge-m)" xlink:href="#object_badge-l"/>
+    </g>
+    <g transform="translate(40 188)">
+      <use fill="#000" filter="url(#object_badge-n)" xlink:href="#object_badge-o"/>
+      <use fill="#FFF" xlink:href="#object_badge-o"/>
+      <g transform="translate(0 326)">
+        <use fill="#AC6289" xlink:href="#object_badge-p"/>
+        <use fill="url(#object_badge-q)" fill-opacity=".2" xlink:href="#object_badge-p" style="mix-blend-mode:overlay"/>
+      </g>
+    </g>
+  </g>
+</svg>

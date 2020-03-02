@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="329" height="490" viewBox="0 0 329 490">
+  <g fill="none" fill-rule="evenodd">
+    <rect width="327" height="488" x="1" y="1" fill="#FFF" stroke="#F0EAED" stroke-width="2" rx="4"/>
+    <path stroke="#F0EAED" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M304 433C286.326888 433 272 447.326888 272 465L57 465C57 447.326888 42.673112 433 25 433L25 57C42.673112 57 57 42.673112 57 25L272 25C272 42.673112 286.326888 57 304 57L304 433zM25 45C36.045695 45 45 36.045695 45 25M284 25C284 36.045695 292.954305 45 304 45M45 465C45 453.954305 36.045695 445 25 445M304 445C292.954305 445 284 453.954305 284 465"/>
+  </g>
+</svg>
